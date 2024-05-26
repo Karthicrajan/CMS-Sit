@@ -1,0 +1,23 @@
+.dashboardContainer{
+    width: 95%;
+    max-width: 95%;
+    margin: auto;
+}
+.dashHeader{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+.writePostBtn{
+    background-color: #4c6ef5;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.sideBar{
+    height: 100vh;
+    background-color: #e9ecef;
+    width: 20%;
+    position: absolute;
+}
+.SideBarList{
+    list-style: none;
+    font-size: 20px;
+    line-height: 50px;
+}

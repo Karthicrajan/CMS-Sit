@@ -1,0 +1,56 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+.footerContiner{
+    background-color: black;
+}
+.ftbady{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+.sitLogoFT{
+    width: 100%;
+}
+.ftLogobox{
+    color: white;
+    text-align: center;
+}
+.ftMenubox{
+    color: white;
+}
+.ftmenuList{
+    list-style: none;
+    line-height: 1.5;
+}
+.ftAddressbox{
+    color: white;
+    line-height: 1.5;
+}
+.cpContiner{
+    background-color: #343a40;
+}
+.cpbody{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .grid-container{
+        display: block;
+    }
+    .ftAddressbox{
+        display: none;
+    }
+    .cpbody{
+        display: block;
+        text-align: center;
+        line-height: 1.5;
+    }
+  }

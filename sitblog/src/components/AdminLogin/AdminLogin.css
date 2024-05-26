@@ -1,0 +1,23 @@
+.loginform{
+    display: flex;
+    flex-direction: column;
+}
+.loginCard{
+    width: 20%;
+    padding: 44px;
+    line-height: 40px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.formInput{
+    padding: 10px;
+}
+.formBtn{
+    background-color: #4c6ef5;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}

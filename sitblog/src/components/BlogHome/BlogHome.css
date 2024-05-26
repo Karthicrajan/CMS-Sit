@@ -1,0 +1,32 @@
+.BlogInnerBodyHeader{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+.BlogInnerBodyHeader h1{
+    font-size: 90px;
+}
+.headerCard{
+    height: 78vh;
+    background-color: black;
+}
+.blogInnerContiner{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+    /* display: flex;
+    flex-wrap: wrap; */
+    max-width: 1440px;
+    margin: auto;
+    padding: 50px;
+
+}
+@media only screen and (max-width: 600px) {
+    .BlogInnerBodyHeader h1{
+        font-size: 196%;
+    }
+    .blogInnerContiner{
+        display: block;
+        width: 100%;
+        padding: 0%;
+    }
+  }

@@ -1,0 +1,98 @@
+.MenuBarbox{
+    top: 0;
+    margin: 0; 
+    z-index: 99;
+    /* position: absolute; */
+    width: 100%;
+    font-family: akzidenz-grotesk,sans-serif;
+    background-color: black;
+}
+.menuIcon{
+    font-size: 35px;
+    border: none;
+    color: #ff7800;
+    padding: 15px;
+    margin: 0;
+    background-color: transparent;
+    position: fixed;
+    top: 15px;
+    right: 0;
+}
+.NavBarBody{
+    background-color: black;
+    height: 100vh;
+    z-index: 98;
+    width: 100%;
+    transition: all 1s ease;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: all 1s ease;
+    left: 0;
+    overflow: auto;
+}
+.NavBarBody::-webkit-scrollbar {
+    display: none;
+}
+.text{
+    color: #009bd3;
+}
+.NavInnerContainer{
+    margin: auto;
+    left: 30%;
+    width: 50%;
+    padding: 10px;
+    position: absolute;
+}
+.NavMenuHeading{
+    color: 009bd3;
+}
+.NavMenuHeadingList .NavBarLink:hover {
+    color: #009bd3;
+  }
+.NavBarLink{
+    text-decoration: none;
+    color: #ff7800;
+}
+.NavMenuHeadingList{
+    overflow: auto;
+    list-style: none;
+    font-size: 90px;
+}
+.NavMenuHeading{
+    cursor: pointer;
+}
+.NavBarContainer{
+    position: relative;
+    font-family: 'Russo One', sans-serif;
+}
+.sitLogo{
+    width: 11%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    
+}
+.MenuBardiv{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .NavInnerContainer {
+      left: 0;
+      width: 100%;
+    }
+    .NavMenuHeadingList{
+        font-size: 30px;
+        margin-top: 50%;
+        line-height: 71px;
+    }
+    .sitLogo{
+        width: 24%;
+    }
+    .menuIcon{
+        font-size: 28px;
+        top: 8px;
+    }
+  }

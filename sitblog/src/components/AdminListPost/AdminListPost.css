@@ -1,0 +1,23 @@
+.AdminCardImage{
+    width: 300px;
+}
+.AdminCardBody{
+    display: flex;
+    align-items: top;
+}
+.AdminCardDetails{
+    padding-left: 20px;
+}
+.adminListBtnContiner{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+.adminListActinBtn{
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #4c6ef5;
+}
